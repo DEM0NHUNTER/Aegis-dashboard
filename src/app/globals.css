@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Define your custom colors here.
-     Tailwind v4 automatically creates 'bg-background', 'text-primary', etc.
-  */
+  /* Define custom colors here. */
 
   --color-background: hsl(240 10% 3.9%);
   --color-foreground: hsl(0 0% 98%);
@@ -41,9 +39,7 @@
   }
 }
 
-/* Apply the theme to the body.
-   In v4, we use standard CSS variables for the values
-*/
+/* Apply the theme to the body.*/
 :root {
   color-scheme: dark;
 }
@@ -52,7 +48,7 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 
-  /* The "Senior" Gradient Background */
+  /* The Gradient Background */
   background-image:
       radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%),
       radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%),
