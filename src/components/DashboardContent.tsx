@@ -7,7 +7,7 @@ import {
   CheckCircle, AlertCircle, Lock, Cloud, Github
 } from "lucide-react";
 
-// --- Constants & Metadata (Preserved from your original file) ---
+// --- Constants & Metadata ---
 const CHECK_META: Record<string, { label: string; description: string }> = {
   tlsEnforced: {
     label: "TLS/HTTPS enforced",
