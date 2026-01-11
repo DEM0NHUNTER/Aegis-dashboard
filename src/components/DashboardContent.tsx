@@ -210,7 +210,6 @@ export default function DashboardContent() {
             <h1 className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent">
               TrustStack Dashboard
             </h1>
-            <p className="mt-2 text-slate-400">Security Posture & Compliance Monitor</p>
           </div>
 
           <button
